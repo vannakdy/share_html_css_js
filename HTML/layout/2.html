@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Template</title>
+    <style>
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      #body-cotain {
+        display: flex;
+        flex-direction: row;
+      }
+      #col1 {
+        min-height: 400px;
+        height: auto;
+        padding: 20px;
+        width: 20%;
+      }
+      #col2 {
+        min-height: 400px;
+        height: auto;
+        padding: 20px;
+        background-color: #e2e2e2;
+        width: 60%;
+      }
+      #col3 {
+        min-height: 400px;
+        height: auto;
+        padding: 20px;
+        width: 20%;
+      }
+      .row-product{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30;
+      }
+      .product-contain{
+          width: 33.33%;
+          height: 400px;
+          background-color:#fff;
+          margin: 2px;
+          padding: 20px;
+      }
+      footer {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Block header</h2>
+    </header>
+    <div id="body-cotain">
+      <div id="col1"><h1>Block1</h1></div>
+      <div id="col2">
+        <div class="row-product">
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+        </div>
+
+        <div class="row-product">
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+            <div class="product-contain">
+                <h1>Shirt</h1>
+            </div>
+        </div>
+        
+      </div>
+      <div id="col3"><h1>Block2</h1></div>
+    </div>
+  </body>
+  <footer>
+    <h1>Footer</h1>
+  </footer>
+</html>

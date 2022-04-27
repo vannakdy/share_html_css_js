@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+
+            .fonst-size{
+
+                
+                /* <absolute-size> values */
+                font-size: xx-small;
+                font-size: x-small;
+                font-size: small;
+                font-size: medium;
+                font-size: large;
+                font-size: x-large;
+                font-size: xx-large;
+                font-size: xxx-large;
+                /* <relative-size> values */
+                font-size: smaller;
+                font-size: larger;
+                /* <length> values */
+                font-size: 20px;
+                font-size: 2em;
+                /* <percentage> values */
+                font-size: 80%;
+                /* Global values */
+                font-size: inherit;
+                font-size: initial;
+                font-size: revert;
+                font-size: unset;
+
+
+                /* note: */
+                /* EM: Relative to the parent element
+                REM: Relative to the root element (HTML tag)
+                %: Relative to the parent element
+                VW: Relative to the viewport’s width
+                VH: Relative to the viewport’s height */
+
+                /* 100% = 16px // default fonst
+                200% = 32px
+                
+                1rem = 16px // root emlement
+                2rem = 32px
+
+                1em = 16px  // element
+                2em = 32px  */
+
+                /* 1 VW = 1% of the viewport’s width (or 4.8px)
+                50 VW = 50% of the viewport’s width (or 240px)
+                1 VH = 1% of the viewport’s height (or 8px)
+                50 VH = 50% of the viewport’s height (or 400px) */
+            }
+            div{
+                background-color: gray;
+                color:white;
+                font-size: large;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div>
+            <span>Outer <span>inner</span> outer</span>
+        </div>
+        <p class="fonst-size">Fonst size</p>
+    </body>
+</html>

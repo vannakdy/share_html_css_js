@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=https://meet.google.com/ixp-vfwr-tej, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .col{
+            width: 25%;
+            margin-top: 30px;;
+        }
+        @media only screen and (max-width: 600px) {
+            .col {
+                width: 50%;
+            }
+        }
+        img{
+            width: 100%;
+            background-color: rgb(30, 207, 169);
+        }
+        .item{
+            padding: 5px;
+            opacity: 1;
+        }
+
+        .test{
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            /* left and right: ; */
+            justify-content: flex-start;
+            height: 500px;
+            /* justify-content: flex-end;
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly; */
+            /* top or bottom */
+            align-items: flex-end;
+            align-items: flex-start;
+            align-items: center;
+
+
+        }
+        .item-tes{
+            border: 1px solid red;
+            margin: 5px;
+        }
+        .test2 > p{
+            /* display: inline;
+            display: block;
+            display: inline-block; */
+            display: inline;
+            width: 100px;
+            height: 5000px;
+            background-color: green;
+            margin: 2px;
+        }
+        .test4 > span{
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            margin: 2px;
+        }
+        .test3 > span{
+            display: block;
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            margin: 2px;
+        }
+        .menu{
+            background-color: #e2e2e2;
+            /* width: 20%; */
+            margin-bottom: 20px;
+            top:0;
+            position: -webkit-sticky;
+            position: sticky;
+            margin-bottom: 20px;
+        }
+        .menu > a{
+            display: inline-block;
+            padding: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color:#000;
+        }
+        .menu > a:hover{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div style="height: 100px;">
+            <h1>My brand</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Aboutus</a>
+            <a href="#">Contact</a>
+            <a href="#">Other</a>
+        </div>
+        <div class="test">
+            <div class="item-tes">
+                <img src="../image/computer/8.jpg" >
+                <div class="test2">
+                    <p>ITEM1</p>
+                    <p>ITEM2</p>
+                </div>
+            </div>
+            <div class="item-tes">
+                <p>Hello</p>
+                <div class="test3">
+                    <span>ITEM1</span>
+                    <span>ITEM2</span>
+                </div>
+            </div>
+            <div class="item-tes">
+                <h1>Nameddfdfdfdfdfdf dfdf</h1>
+                <div class="test4">
+                    <span>ITEM1</span>
+                    <span>ITEM2</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/1.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                    <a href="#">Add to card</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/2.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/5.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/6.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/6.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/7.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/7.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/7.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/7.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="item">
+                    <img src="../image/computer/7.jpg" >
+                    <h3>Macboox Pro</h3>
+                    <p>Ram 8G, SSD: 256</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

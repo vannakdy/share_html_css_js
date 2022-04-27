@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .right{
+            position: fixed;
+            background-color: red;
+            top: 0;
+            right: 0;
+            padding: 30px;
+        }
+        .left{
+            position: fixed;
+            background-color: red;
+            top: 10px;
+            left: 0;
+            padding: 30px;
+        }
+        .bottom-left{
+            position: absolute;
+            background-color: red;
+            bottom: 0;
+            left: 0;
+            padding: 30px;
+        }
+        .bottom-right{
+            position: absolute;
+            background-color: red;
+            bottom: 0;
+            right: 0;
+            padding: 30px;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align:center;
+            padding: 30px;
+        }
+        .sticky{
+            position: sticky;
+            position: -webkit-sticky; /*supoprt safari*/
+            top:0;
+            background-color:gray;
+            height: 50px;
+        }
+        div.relative {
+            position: relative;
+            left: 30px;
+            top:10px;
+            border: 3px solid #73AD21;
+        }   
+    </style>
+    -static : by default not support with top , left right , bottom 
+    -relative : like static and suport left ....
+    -absolute : support top left ... and sroll with viewport scroll
+    -fiext : support top left ... and not sroll with viewport scroll
+</head>
+<body>
+    <div>
+        An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+        However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+        <div class="sticky">
+            Postion sticky
+        </div>
+        <div class="relative">
+            Postion relative
+        </div>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <h2>H</h2>
+        <div class="right">
+            Postion
+        </div>
+        <div class="left">
+            Postion
+        </div>
+        <div class="bottom-left">
+            Postion
+        </div>
+        <div class="bottom-right">
+            Postion
+        </div>
+        <div>
+            <div class="center">
+            Postion
+            </div>
+        </div>
+    </div>
+</body>
+</html>

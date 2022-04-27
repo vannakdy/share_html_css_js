@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Demo</title>
+      <style>
+          div{
+              display: flex;
+              margin-left: 20%;
+              margin-right: 20%;
+              justify-content: center;
+              border:1px solid black;
+              padding: 5%;
+              border-radius: 10px;
+              background-color: #e2e2e2;
+          }
+          input,textarea ,select,button{
+              margin: 10px;
+              padding: 10px;
+              border-radius: 10px;
+          }
+          
+      </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">HTML FORM</h1>
+    <div>
+        <form>
+            Frist name: <input placeholder="first name" type="text" name="firtname"><br>
+            Last name: <input placeholder="last name" type="text" name="lastname"><br>
+            Gender:
+                <input type="radio" name="gender" value="1"> Male
+                <input type="radio" name="gender" value=""> Female<br>
+            DOB:
+                <input type="date" name="dob"> <br>
+            Province: 
+                <select>
+                    <option>Battambong</option>
+                    <option>PP</option>
+                    <option>TK</option>
+                    <option>Kompot</option>
+                    <option>Kompong Cham</option>
+                </select><br>
+            Address:<br>
+            <textarea placeholder="Address" rows="4"></textarea><br>
+            <button>Cancel</button>
+            <button>Register</button><br>
+        </form>
+    </div>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Horizontal navigation</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      body{
+          margin: 20px 10%;
+      }
+      ul {
+        display: flex;
+        position:sticky;
+        top:0;
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #615d5d;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        float: left;
+      }
+      li div:hover {
+        background-color: gray;
+      }
+      .item-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      .item-menu span {
+        color: white;
+      }
+      .item-menu a {
+        color: white;
+        margin-left: 5px;
+        text-decoration: none;
+      }
+      .active {
+        background-color: rgb(90, 114, 41);
+      }
+      .logo {
+        width: 100px;
+        height: 80px;
+      }
+      .brand-name {
+        margin: 0;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- bran info -->
+    <div>
+      <img class="logo" src="./image/1.png" alt="logo image" />
+      <h1 class="brand-name">Global news</h1>
+    </div>
+    <!-- block menu -->
+    <ul>
+      <li>
+        <div class="item-menu active">
+          <span class="material-icons">home</span>
+          <a href=""> Home</a>
+        </div>
+      </li>
+      <li>
+        <div class="item-menu">
+          <span class="material-icons">article</span>
+          <a href=""> News</a>
+        </div>
+      </li>
+      <li>
+        <div class="item-menu">
+          <span class="material-icons">phone</span>
+          <a href=""> Contact</a>
+        </div>
+      </li>
+      <li style="float: right">
+        <div class="item-menu">
+          <span class="material-icons">login</span>
+          <a href=""> Login</a>
+        </div>
+      </li>
+      <li style="float: right">
+        <div class="item-menu">
+          <span class="material-icons">how_to_reg</span>
+          <a href=""> Register</a>
+        </div>
+      </li>
+    </ul>
+    <!-- content -->
+    <div>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <hr>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+      <p>
+        In the past month, searches for “how to make hand sanitizer” have grown
+        by 4,950% worldwide.1 Meanwhile, there has been a 600% increase in
+        searches for “can you get coronavirus twice.”2 And searches for “grocery
+        delivery service near me” have gone up 200% globally.3 In this dynamic
+        environment, people’s needs are changing constantly. To keep up with
+        shifting behaviors, consider Google Trends, a free tool that provides
+        access to actual search requests across Google Search, YouTube,
+        Shopping, and Images. By entering a keyword or a topic, you can explore
+        what the world is searching for in near real time. To help you stay on
+        top of these shifts, the Google News Lab is curating global trends
+        related to the pandemic with an option to dive more deeply into any of
+        24 local markets. Explore country trends. To help you find your own
+        insights and get the most of the tool, here are 10 tips for using Google
+        Trends. Filter across properties. You can now explore trends across
+        Google Search, Image Search, News Search, Google Shopping, and YouTube
+        Search. Compare your search terms and topics across languages,
+        locations, and time periods. Explore by category. Words often have
+        multiple meanings, so make sure to find the right version on Trends. For
+        example, if you search for “mask,” you can add a category to indicate
+        whether you mean protective health equipment or a type of beauty
+        product.
+      </p>
+
+    </div>
+  </body>
+</html>

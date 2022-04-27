@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Horizontal navigation</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            ul{
+               list-style-type:none; 
+               overflow: hidden;
+               background-color: #615d5d;
+               margin: 0;
+               padding: 0;
+            }
+            li{
+                /* float: left; */
+            }
+            li div:hover{
+                background-color: gray;
+            }
+            .item-menu{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 10px 20px;
+            }
+            .item-menu span{
+                color: white;
+            }
+            .item-menu a{
+                color: white;
+                margin-left: 5px;
+                text-decoration: none;
+            }
+            .active{
+                background-color: rgb(90, 114, 41);
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <div class="item-menu active">
+                    <span class="material-icons">home</span>
+                    <a href=""> Home</a>
+                </div>
+            </li>
+            <li>
+                <div class="item-menu">
+                    <span class="material-icons">article</span>
+                    <a href=""> News</a>
+                </div>
+            </li>
+            <li>
+                <div class="item-menu">
+                    <span class="material-icons">phone</span>
+                    <a href=""> Contact</a>
+                </div>
+                
+            </li>
+            <li>
+                <div class="item-menu">
+                    <span class="material-icons">login</span>
+                    <a href=""> Login</a>
+                </div>
+            </li>
+            <li>
+                <div class="item-menu">
+                    <span class="material-icons">how_to_reg</span>
+                    <a href=""> Register</a>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

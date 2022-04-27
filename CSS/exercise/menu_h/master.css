@@ -1,0 +1,55 @@
+.my_menu {
+    display: flex;
+    width: 100%;
+    background-color: #eee;
+  }
+
+  .my_menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .my_menu a:hover {
+    background-color: #ccc;
+  }
+  .my_menu a.active {
+    background-color: gray;
+    color: white;
+
+  }
+  .logoTop {
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #888;
+  }
+  .logo{
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px green;
+  }
+  #body{
+    padding: 30px 10%;
+  }
+  .box{
+    display: flex;
+    width: 24%;
+    height: 350px;
+    float: left;
+    background-color: #e2e2e2;
+    margin-top: 30px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .box > h1{
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px -2px 4px #000;
+  }
